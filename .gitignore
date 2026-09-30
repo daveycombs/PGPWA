@@ -1,0 +1,109 @@
+# Dependencies and generated builds
+node_modules/
+/dist/
+/build/
+*.tsbuildinfo
+
+# Test results, browser downloads, and coverage
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/blob-report/
+/coverage/
+/.nyc_output/
+
+# Tool caches and temporary files
+.cache/
+.vite/
+.vite-temp/
+.npm/
+.pnpm-store/
+.eslintcache
+.stylelintcache
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+/tmp/
+/temp/
+
+# Environment files and machine-specific configuration.
+# Examples must contain placeholders only, never real credentials.
+.env
+.env.*
+!.env.example
+!.env.*.example
+.npmrc
+.netrc
+_netrc
+*.local
+
+# OpenPGP exports, keyrings, signatures, and revocation certificates.
+# These may contain private keys or personal data, even when encrypted.
+*.asc
+*.pgp
+*.gpg
+*.kbx
+*.sig
+*.rev
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+/.gnupg/
+/private-keys-v1.d/
+/openpgp-revocs.d/
+secring.*
+pubring.*
+trustdb.gpg
+random_seed
+
+# Credentials and local backups
+/.ssh/
+/.aws/
+/.azure/
+/secrets/
+/credentials/
+/backups/
+/downloads/
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
+*.bak
+*.backup
+
+# Plaintext downloads produced by this app
+*.decrypted
+*.verified-copy
+/decrypted.txt
+/message.txt
+/verified.txt
+
+# Editor, assistant, and hosting state specific to this machine
+/.vscode/
+/.idea/
+/.vs/
+/.history/
+/.codex/
+/.vercel/
+/.netlify/
+*.suo
+*.user
+*.code-workspace
+
+# Windows, macOS, and Linux desktop metadata
+.DS_Store
+._*
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+.directory
+
+# Keep package-lock.json, source, tests, public assets, README.md, and
+# .github/workflows/ tracked: they are needed for reproducible deployment.

@@ -1,0 +1,24 @@
+{
+  "name": "pgpwa",
+  "version": "1.0.0",
+  "description": "Offline-first OpenPGP PWA",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/crypto.test.js",
+    "test:e2e": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "openpgp": "^6.3.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "vite": "^8.3.1"
+  }
+}
