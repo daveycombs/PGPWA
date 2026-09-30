@@ -1,5 +1,7 @@
 # PGPWA
 
+Use the app at **[pgpwa.daveycombs.com](https://pgpwa.daveycombs.com/)**. Open it in your browser or select **Install as PWA** to install it on your device.
+
 PGPWA is an offline-capable web app for OpenPGP encryption, decryption, signing, and key management. The name combines PGP and PWA (Progressive Web App).
 
 Cryptographic operations run in the browser using [OpenPGP.js](https://github.com/openpgpjs/openpgpjs). There is no backend, account system, analytics, or automatic key lookup. Once the app is cached, it can run without a network connection.
